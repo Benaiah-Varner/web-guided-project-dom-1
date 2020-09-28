@@ -9,7 +9,9 @@ cardContainer.appendChild(copyOfFirstCard)
 
 const cards = document.querySelectorAll('.card')
 const secondCard = cards[1]
-cards.forEach
+cards.forEach(card => {
+  const h1 = 
+})
 
 // 2- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
