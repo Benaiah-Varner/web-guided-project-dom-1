@@ -24,9 +24,9 @@ console.log(realArrayOfCards)
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
 
-const header = document.querySelector('header');
-const logoTitle = document.querySelector('#logoTitle');
-const card = secondCard;
+const header = document.querySelector('header')
+const logoTitle = document.querySelector('#logoTitle')
+const card = secondCard
 const cardImage = secondCard.querySelector('img')
 const cardTitle = secondCard.querySelector('h2')
 const cardSubtitle = secondCard.querySelector('h3')
