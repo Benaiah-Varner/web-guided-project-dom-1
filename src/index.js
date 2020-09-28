@@ -11,7 +11,6 @@ const cards = document.querySelectorAll('.card')
 const secondCard = cards[1]
 cards.forEach(card => {
   const h2 = card.querySelector('h2')
-  console.log(h2)
   h2.textContent = 'Dog'
 })
 
