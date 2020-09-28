@@ -23,7 +23,10 @@ console.log(realArrayOfCards)
 // 2- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
+
+
 const header = null
+// FROM THE SECOND CARD
 const logoTitle = null
 const card = null
 const cardImage = null
