@@ -36,6 +36,11 @@ const cardLink2 = secondCard.querySelector('a:nth-of-type(2)')
 
 // 3- Changing an element's text content
 //  textContent, innerText (subtle differences)
+cardTitle.textContent = "New H2"
+cardSubtitle.textContent = "New H3"
+cardText.textContent = "New Card Text"
+cardLink1.textContent = "New Link 1"
+cardLink2.textContent = "New Link 2"
 
 // 4- Accessing and changing element attributes
 //  with dot notation
