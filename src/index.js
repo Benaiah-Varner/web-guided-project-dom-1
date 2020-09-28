@@ -53,6 +53,10 @@ cardImage.setAttribute('src', 'https://i.ytimg.com/vi/kjauYmXoElc/hqdefault.jpg'
 // card.setAttribute('class', 'card sky')
 card.classList.add('sky')
 header.classList.add('sky')
+header.classList.remove('sky')
+setInterval(() => {
+  header.classList.toggle('sky')
+}, 1000);
 //  by manipulating inline styles on the element
 
 // 6- Creating new elements and appending them
