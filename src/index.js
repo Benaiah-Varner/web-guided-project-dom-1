@@ -13,6 +13,7 @@ cards.forEach(card => {
   const h2 = card.querySelector('h2')
   const h3 = card.querySelector('h3')
   h3.textContent = 'DOM surgery is fun'
+  h2.textContent = 'Lambda Dog'
 })
 
 // 2- Finding an element on the page and saving a reference to it
