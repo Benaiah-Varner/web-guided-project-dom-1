@@ -11,7 +11,8 @@ const cards = document.querySelectorAll('.card')
 const secondCard = cards[1]
 cards.forEach(card => {
   const h2 = card.querySelector('h2')
-  h2.textContent = 'Dog'
+  const h3 = card.querySelector('h3')
+  h3.textContent = 'DOM surgery is fun'
 })
 
 // 2- Finding an element on the page and saving a reference to it
