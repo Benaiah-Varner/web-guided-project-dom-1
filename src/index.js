@@ -24,16 +24,15 @@ console.log(realArrayOfCards)
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
 
-const header = null
-const logoTitle = null
-// FROM THE SECOND CARD
-const card = null
-const cardImage = null
-const cardTitle = null
-const cardSubtitle = null
-const cardText = null
-const cardLink1 = null
-const cardLink2 = null
+const header = document.querySelector('header');
+const logoTitle = document.querySelector('#logoTitle');
+const card = secondCard;
+const cardImage = secondCard.querySelector('img')
+const cardTitle = secondCard.querySelector('h2')
+const cardSubtitle = secondCard.querySelector('h3')
+const cardText = secondCard.querySelector('.card-text')
+const cardLink1 = secondCard.querySelector('a')
+const cardLink2 = secondCard.querySelectorAll('a')[1]
 
 // 3- Changing an element's text content
 //  textContent, innerText (subtle differences)
