@@ -64,6 +64,7 @@ card.style.backgroundColor = 'royalblue'
 const newLink = document.createElement('a')
 newLink.textContent = 'Blog'
 newLink.href = '#'
+newLink.id = 'BlogLink'
 document.querySelector('#mainNav').appendChild(newLink)
 
 // 7- Removing an existing element and putting it back
