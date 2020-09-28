@@ -45,7 +45,7 @@ cardLink2.textContent = "New Link 2"
 // 4- Accessing and changing element attributes
 //  with dot notation
 //  setAttribute, getAttribute
-cardImage.src = ''
+cardImage.src = 'https://i.ytimg.com/vi/h5TpJb_jE-M/maxresdefault.jpg'
 
 
 // 5- Changing the style
