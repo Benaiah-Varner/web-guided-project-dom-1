@@ -17,7 +17,8 @@ cards.forEach((card, idx) => {
   const h2 = card.querySelector('h2')
   h2.textContent = data[idx].heading
 })
-const realArrayOfCards
+const realArrayOfCards = Array.from(cards)
+console.log(realArrayOfCards)
 
 // 2- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
