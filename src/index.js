@@ -8,7 +8,7 @@ const cardContainer = document.querySelector('.card-group') // use querySelector
 cardContainer.appendChild(copyOfFirstCard)
 
 const cards = document.querySelectorAll('.card')
-console.log(cards)
+cards[1]
 
 // 2- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
