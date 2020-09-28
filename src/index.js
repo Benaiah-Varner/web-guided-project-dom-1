@@ -30,9 +30,9 @@ const card = secondCard
 const cardImage = secondCard.querySelector('img')
 const cardTitle = secondCard.querySelector('h2')
 const cardSubtitle = secondCard.querySelector('h3')
-const cardText = secondCard.querySelector('.card-text')
+const cardText = secondCard.querySelector('p.card-text')
 const cardLink1 = secondCard.querySelector('a')
-const cardLink2 = secondCard.querySelectorAll('a')[1]
+const cardLink2 = secondCard.querySelector('a:nth-of-type(2)')
 
 // 3- Changing an element's text content
 //  textContent, innerText (subtle differences)
