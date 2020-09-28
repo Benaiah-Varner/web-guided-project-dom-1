@@ -1,6 +1,11 @@
 // USING THE DOM TO EDIT ELEMENTS ON THE PAGE (AND ADD NEW ONES)
 
 // 1- Making a clone of the div.card ad appending it to the div.card-group
+const firstCard = document.querySelector('.card')
+// you get either an element or null (the first match, if several elements match the css select)
+const copyOfFirstCard = firstCard.cloneNode(true)
+const cardContainer = document.querySelector('.card-group') // use querySelector the parent element of the cards
+cardContainer.appendChild(copyOfFirstCard)
 
 // 2- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
