@@ -7,6 +7,8 @@ const copyOfFirstCard = firstCard.cloneNode(true)
 const cardContainer = document.querySelector('.card-group') // use querySelector the parent element of the cards
 cardContainer.appendChild(copyOfFirstCard)
 
+const cards = document.quesela
+
 // 2- Finding an element on the page and saving a reference to it
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
