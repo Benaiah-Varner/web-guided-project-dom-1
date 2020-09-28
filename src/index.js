@@ -58,6 +58,7 @@ setInterval(() => {
   header.classList.toggle('sky')
 }, 1000)
 //  by manipulating inline styles on the element
+card.style.back
 
 // 6- Creating new elements and appending them
 
