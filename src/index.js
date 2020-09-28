@@ -24,10 +24,9 @@ console.log(realArrayOfCards)
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
 
-
 const header = null
-// FROM THE SECOND CARD
 const logoTitle = null
+// FROM THE SECOND CARD
 const card = null
 const cardImage = null
 const cardTitle = null
