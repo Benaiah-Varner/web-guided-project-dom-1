@@ -1,4 +1,8 @@
 // USING THE DOM TO EDIT ELEMENTS ON THE PAGE (AND ADD NEW ONES)
+const data = [
+  { heading: 'Dog 1' },
+  { heading: 'Dog 2' },
+]
 
 // 1- Making a clone of the div.card ad appending it to the div.card-group
 const firstCard = document.querySelector('.card')
