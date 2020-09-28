@@ -61,5 +61,7 @@ setInterval(() => {
 card.style.backgroundColor = 'royalblue'
 
 // 6- Creating new elements and appending them
+const newLink = document.createElement('a')
+newLink.textContent = ''
 
 // 7- Removing an existing element and putting it back
