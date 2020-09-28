@@ -46,7 +46,7 @@ cardLink2.textContent = "New Link 2"
 //  with dot notation
 //  setAttribute, getAttribute
 cardImage.src = 'https://i.ytimg.com/vi/h5TpJb_jE-M/maxresdefault.jpg'
-
+cardImage.setAttribute('src', 'https://i.ytimg.com/vi/kjauYmXoElc/hqdefault.jpg')
 
 // 5- Changing the style
 //  by changing the class names on the element
