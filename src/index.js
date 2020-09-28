@@ -45,6 +45,8 @@ cardLink2.textContent = "New Link 2"
 // 4- Accessing and changing element attributes
 //  with dot notation
 //  setAttribute, getAttribute
+cardImage.src = ''
+
 
 // 5- Changing the style
 //  by changing the class names on the element
