@@ -48,8 +48,9 @@ cardLink2.textContent = "New Link 2"
 cardImage.src = 'https://i.ytimg.com/vi/h5TpJb_jE-M/maxresdefault.jpg'
 cardImage.setAttribute('src', 'https://i.ytimg.com/vi/kjauYmXoElc/hqdefault.jpg')
 
-// 5- Changing the style (the "sky" classname should turn)
+// 5- Changing the style (the "sky" classname should turn bg color to blue)
 //  by changing the class names on the element
+card.setAttribute('class', 'sky')
 //  by manipulating inline styles on the element
 
 // 6- Creating new elements and appending them
