@@ -56,7 +56,7 @@ header.classList.add('sky')
 header.classList.remove('sky')
 setInterval(() => {
   header.classList.toggle('sky')
-}, 1000);
+}, 1000)
 //  by manipulating inline styles on the element
 
 // 6- Creating new elements and appending them
